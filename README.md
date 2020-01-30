@@ -1,1 +1,3 @@
-# blinds_eye
+# Blinds' Eye
+
+This project aimed to develop a navigation tool for visually impaired people. The navigation tool detects any obstacles in front of a blind person and alerts the person using sound and vibration. The project was developed using an ultrasonic range finder, AVR ATMEGA32 micro-controller, Micro SD card, and an amplifier. The navigational tool can measure the distance of an obstacle in front of a blind person and alert the person with the accurate measurement of distance using sound.  The major tasks were interfacing a micro SD card with a microcontroller, measuring the distance between an obstacle and the blind person using ultrasonic sensor and maintaining a FAT32 file system in SD card to store sound clips. The sound clips were played to the blind person ear by headphones according to the measured distance.
